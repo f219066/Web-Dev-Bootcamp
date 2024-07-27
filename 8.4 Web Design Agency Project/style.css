@@ -1,0 +1,71 @@
+body{
+
+    color: black;
+    
+}
+
+
+.Box1{
+    padding: 50px;
+text-align: center;
+border: 5px solid violet;
+width: 50%;
+
+}
+
+.Box2{
+    padding: 50px;
+text-align: center;
+border: 5px solid violet;
+width: 50%;
+
+}
+
+.Box3{
+    padding: 50px;
+text-align: center;
+border: 5px solid violet;
+width: 50%;
+
+}
+
+.container{
+
+    display: flex;
+    gap: 2rem;
+    
+}
+
+@media(max-width :1080px)
+{
+
+.container{
+
+
+   
+
+    display: inline-block;
+
+
+
+}
+
+.Box1{
+
+    width: 100%;
+    background-color: blueviolet;
+
+}
+
+
+.Box2{
+
+    width: 100%;
+    background-color: blueviolet;
+}
+.Box3{
+
+    width: 100%;
+    background-color: blueviolet;
+}
+}
